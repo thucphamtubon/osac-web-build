@@ -1,0 +1,375 @@
+_N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
+  [16],
+  {
+    STt2: function(n, a, l) {
+      'use strict';
+      l.r(a);
+      l('yRSi'), l('Sesg');
+      var e = l('ERkP'),
+        t = l.n(e),
+        i = l('F6ED'),
+        c = (l('BY7v'), t.a.createElement),
+        o = function(n) {
+          return c('div', { className: 'modal-header' }, n.children);
+        },
+        s = function(n) {
+          return c('div', { className: 'modal-body' }, n.children);
+        },
+        u = function(n) {
+          return c('div', { className: 'modal-footer' }, n.children);
+        },
+        m = function(n) {
+          var a = n.size,
+            l = n.children,
+            e = n.center,
+            t = { small: 'sm', large: 'lg' };
+          return c(
+            'div',
+            {
+              className: 'modal fade',
+              tabIndex: '-1',
+              role: 'dialog',
+              'aria-hidden': 'true',
+              id: 'modal',
+            },
+            c(
+              'div',
+              {
+                className: 'modal-dialog '
+                  .concat(t[a] ? 'modal-'.concat(t[a]) : '', ' ')
+                  .concat(e ? 'modal-dialog-centered' : ''),
+                role: 'document',
+              },
+              c('div', { className: 'modal-content' }, l)
+            )
+          );
+        };
+      m.defaultProps = { center: !1 };
+      var d = m,
+        r = t.a.createElement,
+        h = function(n) {
+          n.onOk;
+          var a = n.children,
+            l = n.title,
+            e = n.isFooter;
+          return r(
+            d,
+            n,
+            r(
+              o,
+              null,
+              r('h3', null, l),
+              r(
+                'button',
+                {
+                  type: 'button',
+                  className: 'close',
+                  'aria-label': 'Close',
+                  'data-dismiss': 'modal',
+                },
+                r('span', { 'aria-hidden': 'true' }, '\xd7')
+              )
+            ),
+            r(s, null, a),
+            e &&
+              r(
+                t.a.Fragment,
+                null,
+                r(
+                  u,
+                  null,
+                  r(
+                    'button',
+                    {
+                      type: 'button',
+                      className: 'btn btn-secondary',
+                      'data-dismiss': 'modal',
+                    },
+                    'Close'
+                  )
+                )
+              )
+          );
+        };
+      h.defaultProps = { isFooter: !0 };
+      var g = h,
+        N = l('FWYH'),
+        _ = t.a.createElement,
+        v = '0932646218',
+        b = 'Di\u1ec5m',
+        p = '0932.646.218',
+        y = [
+          {
+            title: ['LAO \u0110\u1ed8NG PH\u1ed4 TH\xd4NG'],
+            noidungCV: [
+              'Do\u0323n v\xea\u0323 sinh khu v\u01b0\u0323c c\u0103n tin b\u1ebfp',
+              'S\u01a1 ch\u1ebf rau, c\u1ee7, qu\u1ea3, thi\u0323t, ca\u0301',
+              'R\u1eeda khay, do\u0323n ra\u0301c khu v\u01b0\u0323c s\u1ea3n xu\xe2\u0301t',
+              'Chia su\u1ea5t cho c\xf4ng nh\xe2n',
+              'N\xe2\u0301u c\u01a1m',
+              'Ca\u0301c c\xf4ng vi\xea\u0323c kha\u0301c do Ban qu\u1ea3n ly\u0301 s\u1eafp x\u1ebfp',
+            ],
+            soluong: [40],
+            diadiem: ['KCN VSIP II - Bi\u0300nh D\u01b0\u01a1ng'],
+            trinhdo: [
+              'Kh\xf4ng y\xeau c\u1ea7u. Co\u0301 s\u01b0\u0301c kho\u0309e t\u1ed1t, chi\u0323u kho\u0301, trung th\u01b0\u0323c',
+            ],
+            kinhnghiem: [
+              'Kh\xf4ng y\xeau c\u1ea7u, ch\u01b0a co\u0301 kinh nghi\xea\u0323m se\u0303 \u0111\u01b0\u01a1\u0323c \u0111a\u0300o ta\u0323o',
+            ],
+            luong: ['Th\u1ecfa thu\u1eadn'],
+            chedokhac: [
+              'Sinh nh\xe2\u0323t, l\u1ec5, t\u1ebft, th\u01b0\u1edfng tha\u0301ng 13',
+              '\u0110\u01b0\u01a1\u0323c tham gia ca\u0301c bu\u1ed5i hu\u1ea5n luy\xea\u0323n \u0111a\u0300o ta\u0323o th\xeam chuy\xean m\xf4n c\u1ee7a c\xf4ng ty t\u1ed5 ch\u01b0\u0301c',
+              'Du li\u0323ch ha\u0300ng n\u0103m\u2026',
+              'Phu\u0323 c\xe2\u0301p c\u01a1m',
+            ],
+          },
+        ];
+      a.default = function() {
+        var n = Object(e.useState)({}),
+          a = n[0],
+          l = n[1];
+        return _(
+          i.a,
+          null,
+          _(
+            'div',
+            { className: 'gt' },
+            _(
+              'div',
+              { className: 'tuyenDungBanner' },
+              _('img', {
+                src: ''.concat('static/img/tuyen_dung_banner.jpg'),
+                alt: 'tuyen-dung-osac',
+                className: 'tuyenDungBanner__image',
+              })
+            ),
+            _(
+              'div',
+              { className: 'dangTuyenDung' },
+              _(
+                'div',
+                { className: 'container' },
+                _(
+                  'div',
+                  { className: 'row' },
+                  _(
+                    'div',
+                    { className: 'col-md-4' },
+                    _(
+                      'div',
+                      { className: 'dangTuyenDung__title' },
+                      _('span', { className: 'osac-color' }, 'CTY OSAC'),
+                      _('br', null),
+                      'TUY\u1ec2N D\u1ee4NG',
+                      _('br', null),
+                      'C\xc1C V\u1eca TR\xcd'
+                    ),
+                    _('span', { className: 'dangTuyenDung__line' }, '____'),
+                    _(
+                      'div',
+                      null,
+                      'M\u1ecdi chi ti\u1ebft vi\u1ec7c l\xe0m li\xean h\u1ec7:',
+                      _('br', null),
+                      _('a', { href: 'tel:'.concat(v) }, p),
+                      ' (',
+                      b,
+                      ' - Tr\u01b0\u1edfng ph\xf2ng nh\xe2n s\u1ef1) ',
+                      _('br', null),
+                      'ho\u1eb7c n\u1ed9p h\u1ed3 s\u01a1 qua email: ',
+                      _(
+                        'a',
+                        { href: 'mailto:hr@achaucatering.com' },
+                        'hr@achaucatering.com'
+                      )
+                    )
+                  ),
+                  _(
+                    'div',
+                    { className: 'col-md-8' },
+                    _(
+                      'div',
+                      null,
+                      y.map(function(n, a) {
+                        return _(
+                          'div',
+                          { className: 'row baiDang mb-3', key: a },
+                          _(
+                            'div',
+                            { className: 'col-md-9' },
+                            _(
+                              'div',
+                              {
+                                className: 'baiDang__title',
+                                'data-toggle': 'modal',
+                                'data-target': '#modal',
+                                onClick: function() {
+                                  return l(n);
+                                },
+                              },
+                              String(n.title).toUpperCase()
+                            ),
+                            _(
+                              'div',
+                              { className: 'baiDang__item' },
+                              'S\u1ed1 l\u01b0\u1ee3ng: ',
+                              n.soluong,
+                              ' - \u0110\u1ecba \u0111i\u1ec3m: ',
+                              n.diadiem.join(', ')
+                            ),
+                            _(
+                              'div',
+                              { className: 'baiDang__item' },
+                              'Tr\xecnh \u0111\u1ed9: ',
+                              n.trinhdo
+                            ),
+                            _(
+                              'div',
+                              { className: 'baiDang__item' },
+                              'Kinh nghi\u1ec7m: ',
+                              n.kinhnghiem
+                            ),
+                            _(
+                              'div',
+                              { className: 'baiDang__item' },
+                              'L\u01b0\u01a1ng: ',
+                              n.luong
+                            ),
+                            _(
+                              'div',
+                              { className: 'baiDang__line' },
+                              '______________'
+                            )
+                          ),
+                          _(
+                            'div',
+                            { className: 'col-md-3' },
+                            _(
+                              'a',
+                              { href: 'tel:'.concat(v) },
+                              _(
+                                'button',
+                                { className: 'btn btn-outline-dark' },
+                                'Li\xean H\u1ec7: ',
+                                b,
+                                ' ',
+                                p
+                              )
+                            )
+                          )
+                        );
+                      })
+                    )
+                  )
+                )
+              )
+            ),
+            _(
+              g,
+              {
+                title: 'TH\xd4NG TIN C\xd4NG VI\u1ec6C',
+                size: 'large',
+                center: !0,
+                isFooter: !1,
+              },
+              _(
+                'div',
+                { className: 'p-4' },
+                _(
+                  'h4',
+                  { className: 'text-center osac__color' },
+                  _('strong', null, a.title || '')
+                ),
+                _(
+                  'div',
+                  { className: 'row mb-2' },
+                  _(
+                    'div',
+                    { className: 'col-md-9' },
+                    _(
+                      'h6',
+                      { className: 'mb-3' },
+                      _('strong', null, 'C\xf4ng vi\u1ec7c')
+                    ),
+                    _(
+                      'ul',
+                      null,
+                      _(
+                        'li',
+                        null,
+                        'S\u1ed1 l\u01b0\u1ee3ng tuy\u1ec3n: ',
+                        a.soluong,
+                        ' - \u0110\u1ecba \u0111i\u1ec3m l\xe0m vi\u1ec7c: ',
+                        a.diadiem
+                      ),
+                      _('li', null, 'Tr\xecnh \u0111\u1ed9: ', a.trinhdo),
+                      _('li', null, 'Kinh nghi\u1ec7m: ', a.kinhnghiem)
+                    )
+                  ),
+                  _(
+                    'div',
+                    { className: 'col-md-3' },
+                    _(
+                      'a',
+                      { href: 'tel:'.concat(v) },
+                      _(
+                        'button',
+                        { className: 'btn btn-outline-dark' },
+                        'Li\xean H\u1ec7: ',
+                        b,
+                        ' ',
+                        p
+                      )
+                    )
+                  )
+                ),
+                _(
+                  'h6',
+                  { className: 'mb-3' },
+                  _('strong', null, 'Tr\xe1ch Nhi\u1ec7m C\xf4ng Vi\u1ec7c')
+                ),
+                _(
+                  'ul',
+                  null,
+                  a.noidungCV &&
+                    a.noidungCV.map(function(n, a) {
+                      return _('li', { key: a }, n);
+                    })
+                ),
+                _(
+                  'h6',
+                  { className: 'mb-3' },
+                  _('strong', null, 'Ch\u1ebf \u0110\u1ed9 Kh\xe1c')
+                ),
+                _(
+                  'ul',
+                  null,
+                  a.chedokhac &&
+                    a.chedokhac.map(function(n, a) {
+                      return _('li', { key: a }, n);
+                    })
+                ),
+                _(
+                  'h6',
+                  { className: 'mb-3' },
+                  _('strong', null, 'B\u1ea3n \u0111\u1ed3')
+                ),
+                _(N.a, { place: N.b.xuongSX.id })
+              )
+            )
+          )
+        );
+      };
+    },
+    mD6l: function(n, a, l) {
+      (window.__NEXT_P = window.__NEXT_P || []).push([
+        '/tuyen-dung',
+        function() {
+          return l('STt2');
+        },
+      ]);
+    },
+  },
+  [['mD6l', 1, 2, 3, 4, 0]],
+]);
